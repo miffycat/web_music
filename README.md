@@ -24,4 +24,4 @@ A project for practice with a lot of references to music websites
 
 # 声明
 
-本项目仅供学习参考，请勿用于商业行为项目中图片资源均来自网络，如有侵权请及时联系我删除
+本项目仅供学习参考，请勿用于商业行为！项目中图片资源均来自网络，如有侵权请及时联系我删除
