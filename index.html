@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>网易云音乐</title>
+	<link rel="shortcut icon" href="music.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/index/banner.css">
+	<link rel="stylesheet" href="css/index/recommend.css">
+	<link rel="stylesheet" href="css/index/toplist.css">
+	<link rel="stylesheet" href="css/index/n_arrival.css">
+	<link rel="stylesheet" href="css/login_modal.css">
+	<link rel="stylesheet" href="css/index/mv.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/index/playbar.css">
+	<link rel="stylesheet" href="css/background.css">
+	<!-- <link rel="stylesheet" href="css/effect.css"> -->
+	<script src='js/jquery-1.11.3.js'></script>
+	<script src='js/index/ishidden.js'></script>
+	<script src="js/index/banner.js"></script> 
+	<script src='js/index/n_arrival.js'></script>
+	<script src='js/index/mv.js'></script>
+	<script src='js/load_header_footer.js'></script>
+	<script src='js/playbar.js'></script>
+	
+</head>
+<body>
+<div class="header_bg" id="header_bg">
+	<div id="header" class="header">
+		<div class="logo">
+			<a href="javaScript:;">网易云音乐</a>
+		</div>
+		<ul class="first_nav">
+			<li class="active">发现音乐</li>
+			<li>我的音乐</li>
+			<li>朋友</li>
+			<li>商城</li>
+			<li>音乐人</li>
+			<li>下载客户端</li>
+		</ul>
+		<div class="search">
+			<div>
+				<input type="text" placeholder="音乐/电台/用户">
+			</div>
+			
+		</div>
+		<div class="videoUp">
+			<div>
+				<a href="javascript:;">视频投稿</a>
+			</div>
+		</div>
+		<div class="login">
+			<a href="#" data-action='login'>登录</a>
+			<i class="arr"></i>
+			<ul>
+				<li><i class='mb_icon'></i><a href="javascript:;">手机号登录</a></li>
+				<li><i class="wx_icon"></i><a href="javascript:;">微信登录</a></li>
+				<li><i class="qq_icon"></i><a href="javascript:;">QQ登录</a></li>
+				<li><i class="wb_icon"></i><a href="javascript:;">新浪微博登录</a></li>
+				<li><i class="wy_icon"></i><a href="javascript:;">网易邮箱账号登录</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="nav_bg">
+	<div id="nav" class="nav">
+			<ul>
+				<li><a href="index.html" class="navActive">推荐</a></li>
+				<li><a href="playlist.html">歌单</a></li>
+				<li><a href="#">排行榜</a></li>
+				<li><a href="#">主播电台</a></li>
+				<li><a href="#">歌手</a></li>
+				<li><a href="#">新碟上架</a></li>
+			</ul>
+	</div>
+</div>
+<div class="banner_bg">
+	<div id="banner" class="banner" >
+		<div class="wrap">
+			<div class="ban">
+				<img src="images/banner/banner1.png">
+				<img src="images/banner/banner2.png">
+				<img src="images/banner/banner3.png">
+				<img src="images/banner/banner4.png">
+				<img src="images/banner/banner5.png">
+				<img src="images/banner/banner6.png">
+				<img src="images/banner/banner7.png">
+				<img src="images/banner/banner8.png">
+			</div> 
+			<ul class="dots">
+				<!-- indecator -->
+			</ul>
+		</div>
+		<div class="shadow">
+			<img src="images/icons/shadow_min.png">
+		</div>
+		<div class="btn">
+			<button class="prev"></button>
+			<button class="next"></button>
+		</div>
+	</div>
+</div>
+<div class="recommend_bg">
+	<div id="recommend" class="recommend">
+		<h2 class="title">歌单推荐</h2>
+		<div class="second_nav">
+			<ul>
+				<li><a href="#">为你推荐</a></li>
+				<li><a href="#">90年代</a></li>
+				<li><a href="#">民谣</a></li>
+				<li><a href="#">日韩</a></li>
+				<li><a href="#">情歌</a></li>
+				<li><a href="#">网络歌曲</a></li>
+			</ul>
+		</div>
+		<div class="playlists">
+			<ul class="wrapper">
+				<li>
+					<div class="play_btn"></div> 
+					<img src="images/recommond/304.jpg">
+					<div class="text_container">						
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div> 
+					<img src="images/recommond/300.jpg">
+					<div class="text_container">						
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div> 
+					<img src="images/recommond/301.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div> 
+					<img src="images/recommond/302.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div> 
+					<img src="images/recommond/303.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量<span>156.1</span>万</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="n_arr_bg">
+	<div id="n_arrival" class="n_arrival">
+		<h2 class="title">新歌首发</h2>
+		<div class="second_nav">
+			<ul>
+				<li><a href="#">内地</a></li>
+				<li><a href="#">港台</a></li>
+				<li><a href="#">欧美</a></li>
+				<li><a href="#">日本</a></li>
+				<li><a href="#">韩国</a></li>
+			</ul>
+		</div>
+		<div class="n_a_list">
+			<ul class="n_a_wrap">
+				<li class="sub_slide">
+					<ul>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/7731765766990789.jpg" alt=""><!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+					</ul>
+				</li>
+				<li class="sub_slide">
+					<ul>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/18608134790531513.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>remember me</a>
+								<a href="" class='artist'>Coco</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+					</ul>
+				</li>
+				<li class="sub_slide">
+					<ul>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163065542645.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+					</ul>
+				</li>
+				<li class="sub_slide">
+					<ul>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+						<li class='pix'>
+							<div class="cover_con">
+								<img src="images/playlists/109951163076994630.jpg" alt="">
+								<!-- 100*100 -->
+								<div class="play_btn"></div>
+							</div>
+							<div class="pix_info">
+								<a href="" class='music_name'>躲猫猫</a>
+								<a href="" class='artist'>TFboys</a>
+							</div>
+							<p class="duration">03:10</p>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="indecator">
+				<li class='active'></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			
+		</div>
+	</div>
+	<div class="btn">
+		<button class="prev">
+			<i class="icon_prev"></i>
+		</button>
+		<button class="next">
+			<i class="icon_next"></i>
+		</button>
+	</div>
+</div>
+<div class="recommend_bg">
+	<div id="recommend" class="recommend">
+		<h2 class="title">新碟推荐</h2>
+		<div class="second_nav">
+			<ul>
+				<li>
+					<a href="#">为你推荐</a>
+				</li>
+				<li>
+					<a href="#">90年代</a>
+				</li>
+				<li>
+					<a href="#">民谣</a>
+				</li>
+				<li>
+					<a href="#">日韩</a>
+				</li>
+				<li>
+					<a href="#">情歌</a>
+				</li>
+				<li>
+					<a href="#">网络歌曲</a>
+				</li>
+			</ul>
+		</div>
+		<div class="playlists">
+			<ul class="wrapper">
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/304.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/300.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/301.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/302.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/303.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/304.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/300.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/301.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/302.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+				<li>
+					<div class="play_btn"></div>
+					<img src="images/recommond/303.jpg">
+					<div class="text_container">
+						<p class="pl_intro">歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍歌单介绍</p>
+						<p class="pl_amo">播放量
+							<span>156.1</span>万</p>
+					</div>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+</div>
+<div class="toplist_bg">
+	<div id="toplist" class="toplist">
+		<h2 class="title">排行榜</h2>
+		<ul class="lists">
+			<li class="toplist_item">
+				<div class="ban">
+					<div class="item_left">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="item_right">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				
+			</li>
+			<li class="toplist_item">
+				<div class="ban">
+					<div class="item_left">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="item_right">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+
+			</li>
+			<li class="toplist_item">
+				<div class="ban">
+					<div class="item_left">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="item_right">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+
+			</li>
+			<li class="toplist_item">
+				<div class="ban">
+					<div class="item_left">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="item_right">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+
+			</li>
+			<li class="toplist_item">
+				<div class="ban">
+					<div class="item_left">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="item_right">
+						<p class="toplist_title">巅峰榜</p>
+						<p class="item_title">流行指数</p>
+						<i class="item_line"></i>
+						<ul class="item_songlist">
+							<li>
+								<div class="s_num">1</div>
+								<div class="s_name">红蔷薇</div>
+								<div class="s_artist">张靓颖</div>
+							</li>
+							<li>
+								<div class="s_num">2</div>
+								<div class="s_name">我们的时光</div>
+								<div class="s_artist">林俊杰</div>
+							</li>
+							<li>
+								<div class="s_num">3</div>
+								<div class="s_name">刘海砍樵</div>
+								<div class="s_artist">张艺兴</div>
+							</li>
+							<li>
+								<div class="s_num">4</div>
+								<div class="s_name">都选C</div>
+								<div class="s_artist">缝纫机乐队</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="mv_bg">
+	<div id="mv" class="mv">
+		<h2 class="title">MV</h2>
+		<div class="second_nav">
+			<ul>
+				<li><a href="#">推荐</a></li>
+				<li><a href="#">内地</a></li>
+				<li><a href="#">港台</a></li>
+				<li><a href="#">欧美</a></li>
+				<li><a href="#">日本</a></li>
+				<li><a href="#">韩国</a></li>
+			</ul>
+		</div>
+		<div class="mv_list">
+			<ul class="mv_wrap">
+				<li class="item_box">
+					<div class="play_btn"></div>
+					<div class="mv_item_cont">
+						<div class="mv_item">
+							<img src="images/mv/mv_1.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">烟花 (《烟花》电影同名主题曲)</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">DAOKO</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+						<div class="mv_item">
+							<img src="images/mv/mv_2.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">分裂时空</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">鞠婧祎</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="item_box">
+					<div class="play_btn"></div>
+					<div class="mv_item_cont">
+						<div class="mv_item">
+							<img src="images/mv/mv_1.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">烟花 (《烟花》电影同名主题曲)</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">DAOKO</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+						<div class="mv_item">
+							<img src="images/mv/mv_2.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">分裂时空</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">鞠婧祎</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="item_box">
+					<div class="play_btn"></div>
+					<div class="mv_item_cont">
+						<div class="mv_item">
+							<img src="images/mv/mv_1.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">烟花 (《烟花》电影同名主题曲)</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">DAOKO</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+						<div class="mv_item">
+							<img src="images/mv/mv_2.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">分裂时空</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">鞠婧祎</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="item_box">
+					<div class="play_btn"></div>
+					<div class="mv_item_cont">
+						<div class="mv_item">
+							<img src="images/mv/mv_1.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">烟花 (《烟花》电影同名主题曲)</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">DAOKO</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+						<div class="mv_item">
+							<img src="images/mv/mv_2.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">分裂时空</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">鞠婧祎</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="item_box">
+					<div class="play_btn"></div>
+					<div class="mv_item_cont">
+						<div class="mv_item">
+							<img src="images/mv/mv_1.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">烟花 (《烟花》电影同名主题曲)</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">DAOKO</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+						<div class="mv_item">
+							<img src="images/mv/mv_2.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">分裂时空</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">鞠婧祎</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="item_box">
+					<div class="play_btn"></div>
+					<div class="mv_item_cont">
+						<div class="mv_item">
+							<img src="images/mv/mv_1.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">烟花 (《烟花》电影同名主题曲)</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">DAOKO</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+						<div class="mv_item">
+							<img src="images/mv/mv_2.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">分裂时空</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">鞠婧祎</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="item_box">
+					<div class="play_btn"></div>
+					<div class="mv_item_cont">
+						<div class="mv_item">
+							<img src="images/mv/mv_1.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">烟花 (《烟花》电影同名主题曲)</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">DAOKO</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+						<div class="mv_item">
+							<img src="images/mv/mv_2.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">分裂时空</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">鞠婧祎</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="item_box">
+					<div class="play_btn"></div>
+					<div class="mv_item_cont">
+						<div class="mv_item">
+							<img src="images/mv/mv_1.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">烟花 (《烟花》电影同名主题曲)</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">DAOKO</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+						<div class="mv_item">
+							<img src="images/mv/mv_2.png">
+							<div class="mv_intr">
+								<p class="mv_title">
+									<a href="">分裂时空</a>
+								</p>
+								<p class="mv_artist">
+									<a href="">鞠婧祎</a>
+								</p>
+								<div class="amo">
+									<i class="mv_icon"></i>
+									<span>156.1</span>
+									<span>万</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+			</ul>
+			<ul class="indecator">
+				<li class='active'></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<div class="btn">
+		<button class="prev">
+			<i class="icon_prev"></i>
+		</button>
+		<button class="next">
+			<i class="icon_next"></i>
+		</button>
+	</div>
+</div>
+<div class="footer_bg" id="footer_bg">
+	<div id="footer" class="footer">
+		<ul class="footer_info">
+			<li class="download">
+				<h3>下载网易云音乐客户端</h3>
+				<ul class="download_list">
+					<li class="dl_item">
+						<i class="icon_pc"></i>
+						<p><a href="">PC版</a></p>
+					</li>
+					<li class="dl_item">
+						<i class="icon_mac"></i>
+						<p><a href="">Mac版</a></p>
+					</li>
+					<li class="dl_item">
+						<i class="icon_andr"></i>
+						<p><a href="">Android版</a></p>
+					</li>
+					<li class="dl_item">
+						<i class="icon_iph"></i>
+						<p><a href="">iPhone版</a></p>
+					</li>
+				</ul>
+			</li>
+			<li class="products">
+				<h3>特色产品</h3>
+				<ul class="products_list">
+					<li class='prod_item'>
+						<i class="icon_k"></i>
+						<p><a href="">天天k歌</a></p>
+					</li>
+					<li class='prod_item'>
+						<i class="icon_sp"></i>
+						<p><a href="">SUPER SOUND</a></p>
+					</li>
+					<li class='prod_item'>
+						<i class="icon_qPlay"></i>
+						<p><a href="">Qplay</a></p>
+					</li>
+					<li class='prod_item'>
+						<p><a href="">车载互联</a></p>
+					</li>
+					<li class='prod_item'>
+						<p><a href="">网易演唱会</a></p>
+					</li>
+				</ul>
+			</li>
+			<li class="links">
+				<h3>合作链接</h3>
+				<ul class='links_list'>
+					<li class="lk_item">
+						<a href="">CJ E&M</a>
+					</li>
+					<li class="lk_item">
+						<a href="">网易视频</a>
+					</li>
+					<li class="lk_item">
+						<a href="">手机空间</a>
+					</li>
+					<li class="lk_item">
+						<a href="">阴阳师</a>
+					</li>
+					<li class="lk_item">
+						<a href="">网页社交广告</a>
+					</li>
+					<li class="lk_item">
+						<a href="">电脑管家</a>
+					</li>
+					<li class="lk_item">
+						<a href="">网易浏览器</a>
+					</li>
+					<li class="lk_item">
+						<a href="">炉石传说</a>
+					</li>
+					<li class="lk_item">
+						<a href="">网易云</a>
+					</li>
+					<li class="lk_item">
+						<a href="">初音速</a>
+					</li>
+					<li class="lk_item">
+						<a href="">风暴英雄</a>
+					</li>
+					<li class="lk_item">
+						<a href="">守望先锋</a>
+					</li>
+				</ul>
+				
+			</li>
+			<li class="platform">
+				<h3>开放平台</h3>
+				<ul class="plats_list">
+					<li class='plat_item'>
+						<p>
+							<a href="">独立音乐人</a>
+						</p>
+					</li>
+					<li class='plat_item'>
+						<p>
+							<a href="">音乐专栏</a>
+						</p>
+					</li>
+					<li class='plat_item'>
+						<p>
+							<a href="">上传视频</a>
+						</p>
+					</li>
+					<li class='plat_item'>
+						<p>
+							<a href="">上传音频</a>
+						</p>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<div class="copyright">
+			<p>
+				<a href="javascript:;" title="关于网易">关于网易</a> |
+				<a href="javascript:;" title="About Netease">About Netease</a> |
+				<a href="javascript:;" title="服务条款">服务条款</a> |
+				<a href="javascript:;" title="用户服务协议">用户服务协议</a> |
+				<a href="javascript:;" title="隐私政策">隐私政策</a> |
+				<a href="javascript:;" title="权利声明">权利声明</a> |
+				<a href="javascript:;" title="广告服务 ">广告服务</a> | 
+				<a href="javascript:;" title="网易招聘 ">网易招聘</a> | 
+				<a href="javascript:;" title="客服中心 ">客服中心</a> | 
+				<a href="javascript:;" title="网站导航 ">网站导航</a>	
+			</p>
+			<p>
+				 Copyright © 1997 -
+				<script type="text/javascript">document.write(new Date().getFullYear());</script> Netease.
+				<a href="javascript:;" title="All Rights Reserved.">All Rights Reserved.</a>
+			</p>
+			<p>
+				 网易公司
+				<a href="javascript:;" title="版权所有">版权所有</a>
+				<a href="javascript:;" title="网易网络文化经营许可证">网易网络文化经营许可证</a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="playbar_box">
+	<div class="playbar_bg">
+		<div class="trigger_up"></div>
+		<div class="playbar">
+			<div class="pb_btns">
+				<a href="javascript:;">
+					<i class="pre_icon"></i>
+				</a>
+				<a href="javascript:;" data-action="pause">
+					<i class="pau_icon"></i>
+				</a>
+				<a href="javascript:;">
+					<i class="nxt_icon"></i>
+				</a>
+			</div>
+			<div class="pb_cover">
+				<img src="./images/icons/default_album.jpg" alt="cover">
+			</div>
+			<div class="pb_play">
+				<div class="mu_title">
+					<span class="mu_name">The Good Side</span>
+					<span class="musician">Troye Sivan</span>
+				</div>
+				<div class="pb_con">
+					<div class="pb_tbar">
+						<div class="pb_cbar"></div>
+					</div>
+					<div class="pb_dot"></div>
+					<div class="duration">
+						<span class="ctime">00:00</span>
+						<span> / </span>
+						<span class="ttime">00:00</span>
+					</div>
+				</div>
+			</div>
+			<div class="pb_ctrls">
+				<a href="javascript:;">
+					<i class="coll_icon"></i>
+				</a>
+				<a href="javascript:;">
+					<i class="share_icon"></i>
+				</a>
+				<a href="javascript:;">
+					<i class="vol_icon"></i>
+				</a>
+				<a href="javascript:;">
+					<i class="loop_icon"></i>
+				</a>
+				<a href="javascript:;">
+					<i class="plist_icon"></i>
+				</a>
+			</div>
+		</div>
+		<audio src="./src/3331052726.mp3" id='aud'></audio>
+		<div class="pb_lock">
+			<a href="javascript:;">
+				<i class="unlock_icon"></i>
+			</a>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

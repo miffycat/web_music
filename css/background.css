@@ -1,0 +1,25 @@
+.header_bg{
+    background:#232323;
+}
+.nav_bg{
+    background:#C20C0C;
+}
+.banner_bg{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+.recommend_bg,
+.n_arr_bg,
+.toplist_bg,
+.mv_bg{
+    background-image: linear-gradient(to bottom, #F1F1F1 0%, #FEFEFE 100%); 
+}
+.recommend_bg,
+.n_arr_bg,
+.mv_bg{
+    position: relative;
+    overflow: hidden;
+}
+.footer_bg{
+    background:#333;
+}

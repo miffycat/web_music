@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>网易歌单</title>
+  <link rel="shortcut icon" href="music.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/background.css">
+  <link rel="stylesheet" href="css/playlist/playlist.css">
+  <link rel="stylesheet" href="css/login_modal.css">
+  <!-- <link rel="stylesheet" href="css/effect.css"> -->
+  <script src='js/jquery-1.11.3.js'></script>
+   <script src='js/load_header_footer.js'></script> 
+   <script src="js/playlist/playlist.js"></script>
+</head>
+<body>
+  <div class="header_bg" id="header_bg"></div>
+  <div class="nav_bg" id="nav_bg"></div>
+  <div class="main">
+    <div class="pl_nav_cont">
+      <div class="tag_list" data-filter='language'>
+        <div class="catogery"></div>
+        <div class="tags">
+          <a href="#" class="active">全部</a>
+          <a href="#">内地</a>
+          <a href="#">港台</a>
+          <a href="#">欧美</a>
+          <a href="#">韩国</a>
+          <a href="#">日本</a>
+        </div>
+        <div class="slide_cube"></div>
+      </div>
+      <div class="tag_list" data-filter='genre'>
+        <div class="catogery">
+          <p>流派</p>
+        </div>
+        <div class="tags">
+          <a href="#" class="active">全部</a>
+          <a href="#">流行</a>
+          <a href="#">古典</a>
+          <a href="#">爵士</a>
+          <a href="#">摇滚</a>
+          <a href="#">电子</a>
+          <a href="#">拉丁</a>
+          <a href="#">世界音乐</a>
+          <a href="#">轻音乐</a>
+          <a href="#">嘻哈</a>
+          <a href="#">原声</a>
+          <a href="#">乡村</a>
+          <a href="#">舞曲</a>
+          <a href="#">R&B</a>
+          <a href="#">民谣</a>
+          <a href="#">金属</a>
+        </div>
+        <div class="slide_cube"></div>
+      </div>
+      <div class="tag_list" data-filter='category'>
+        <div class="catogery">
+          <p>类别</p>
+        </div>
+        <div class="tags">
+          <a href="#" class="active">全部</a>
+          <a href="#">专辑</a>
+          <a href="#">EP</a>
+          <a href="#">Single</a>
+          <a href="#">演唱会</a>
+          <a href="#">动漫</a>
+          <a href="#">游戏</a>
+        </div>
+        <div class="slide_cube"></div>
+      </div>
+      <div class="tag_list filter">
+        <div class="catogery">
+          <p>筛选</p>
+        </div>
+        <div class="tags">
+          <a href="#" data-filter='ages'><span>年代</span><i class="arrow_down"></i></a>
+          <a href="#" data-filter='music_comp'><span>唱片公司</span><i class="arrow_down"></i></a>
+        </div>
+      </div>
+      <div class="tag_list condition">
+        <div class="catogery">
+          <p>条件</p>
+        </div>
+        <div class="tags">
+          <a href="#" data-filter="total"><span>全部</span></a>
+        </div>
+      </div>
+      <div class="popup_tag ages" data-sub='ages'>
+        <a href="#" class="active">全部</a>
+        <a href="#">2018</a>
+        <a href="#">2017</a>
+        <a href="#">2016</a>
+        <a href="#">2015</a>
+        <a href="#">2014</a>
+        <a href="#">2013</a>
+      </div>
+      <div class="popup_tag music_comp" data-sub='music_comp'>
+        <a href="#" class="active">全部</a>
+        <a href="#">环球唱片</a>
+        <a href="#">华纳唱片</a>
+        <a href="#">索尼唱片</a>
+        <a href="#">杰威尔音乐有限公司</a>
+        <a href="#">英皇唱片</a>
+        <a href="#">金牌大风</a>
+        <a href="#">福茂唱片</a>
+        <a href="#">宏声音乐</a>
+        <a href="#">通力唱片</a>
+        <a href="#">滚石唱片</a>
+        <a href="#">相信音乐</a>
+        <a href="#">华研国际音乐</a>
+      </div>
+
+    </div>
+    <div class="playlist_cont">
+      <ul class="wrapper">
+        <li>
+          <div class="play_btn"></div>
+          <img src="images/recommond/304.jpg">
+          <div class="text_container">
+            <p class="pl_intro">歌单介绍</p>
+            <p class="pl_amo">播放量
+              <span>156.1</span>万</p>
+          </div>
+        </li>
+        <li>
+          <div class="play_btn"></div>
+          <img src="images/recommond/300.jpg">
+          <div class="text_container">
+            <p class="pl_intro">歌单介绍</p>
+            <p class="pl_amo">播放量
+              <span>156.1</span>万</p>
+          </div>
+        </li>
+        <li>
+          <div class="play_btn"></div>
+          <img src="images/recommond/301.jpg">
+          <div class="text_container">
+            <p class="pl_intro">歌单介绍</p>
+            <p class="pl_amo">播放量
+              <span>156.1</span>万</p>
+          </div>
+        </li>
+        <li>
+          <div class="play_btn"></div>
+          <img src="images/recommond/302.jpg">
+          <div class="text_container">
+            <p class="pl_intro">歌单介绍</p>
+            <p class="pl_amo">播放量
+              <span>156.1</span>万</p>
+          </div>
+        </li>
+        <li>
+          <div class="play_btn"></div>
+          <img src="images/recommond/303.jpg">
+          <div class="text_container">
+            <p class="pl_intro">歌单介绍</p>
+            <p class="pl_amo">播放量
+              <span>156.1</span>万</p>
+          </div>
+        </li>
+      </ul>
+    </div> 
+    <div class="pagination clear">
+      <ul class="clear">
+        <li><a href="#">上一页</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">下一页</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_bg" id="footer_bg"></div>
+</body>
+</html>

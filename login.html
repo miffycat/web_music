@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录</title>
+  <link rel="shortcut icon" href="music.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/background.css">
+  <link rel="stylesheet" href="css/login/login.css">
+  <script src='js/jquery-1.11.3.js'></script>
+  <script src='js/load_header_footer.js'></script>
+  <script src='js/login/login.js'></script>
+  <script src="js/login/commonFunctions.js"></script>
+  
+ 
+</head>
+
+<body>
+  <div class="header_bg" id="header_bg"></div>
+  <div class="nav_bg" id="nav_bg"></div>
+  <div class="main clear">
+    <canvas id='login_bg'></canvas>
+    <div class="login_outer">
+      <div class="login_header clear">
+        <p class="title">网易云音乐</p>
+        <!-- <div class="close">
+          <a href="javascript:;" data-action="close">&times;</a>
+        </div> -->
+      </div>
+      <div class="showMsg">
+        <p class="msg">
+          <i class="icon_msg"></i>
+          <span></span>
+        </p>
+      </div>
+      <div class="uname">
+        <input type="text" placeholder="邮箱/手机号/ID" name="uname">
+      </div>
+      <div class="upwd">
+        <input type="password" placeholder="登录密码" name="upwd">
+      </div>
+      <div class="valicode">
+        <input type="text" name="valicode"><img src="" alt="">
+      </div>
+      <div class="btns">
+        <a class="login_btn" data-action="login">登录</a>
+      </div>
+      <div class="help">
+        <a href="#">忘记密码</a>
+        <a href="#">忘记用户名</a>
+        <a href="regist.html">免费注册</a>
+      </div>
+      <div class="login_footer">
+        <p class="otherway">使用其他方式登录: 
+          <a href="#"><i class="icon_wb"></i></a>
+          <a href="#"><i class="icon_wx"></i></a>
+          <a href="#"><i class="icon_qq"></i></a>
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="footer_bg" id="footer_bg"></div>
+  <script src="js/login/canvas_bg.js"></script>
+  <script src="js/login/logo.js"></script> 
+</body>
+  
+</html>

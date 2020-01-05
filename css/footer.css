@@ -1,0 +1,133 @@
+.footer, .footer a{
+    color:#767676;
+    font-size: 0.95em;
+}
+.footer h3{
+    font-weight: normal;
+    font-size: 0.95em;
+}
+.footer{
+    background:#333;
+    width:1200px;
+    margin:0 auto;
+    border-bottom: 1px solid #333;
+}
+
+.footer a:hover{
+    color:#f46262;
+}
+.footer .footer_info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer .download,
+.footer .products,
+.footer .links{
+    margin-top: 50px;
+    width: 30%;
+    height: 200px;
+}
+.footer .download{
+    margin-right: 100px;
+}
+.footer .download_list,
+.footer .products_list,
+.footer .links_list{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.footer .download_list .dl_item,
+.footer .products_list .prod_item{
+    margin-right: 29px;
+    cursor: pointer;
+}
+.footer .download_list .dl_item>p,
+.footer .products_list .prod_item>p{
+    margin-top:15px;
+}
+.footer .links_list .lk_item{
+    width: 30%;
+    text-align: left;
+}
+.footer .platform{
+    width: 100%;
+}
+.footer .plats_list{
+    display: flex;
+}
+.footer .plat_item>p{
+    margin-right: 30px;
+}
+.footer .copyright{
+    margin: 40px 0 20px;
+    text-align: center;
+}
+.footer .copyright>*{
+    margin:10px auto;
+
+}
+.icon_pc, 
+.icon_mac, 
+.icon_andr, 
+.icon_iph,
+.icon_k,
+.icon_sp,
+.icon_qPlay{
+    display: block;
+    width:48px;
+    height: 48px;
+    background:url(../images/icons/footer.png) no-repeat;
+    margin:0 auto;
+} 
+.icon_pc{
+    background-position:-2px 0;
+    width: 40px;
+}
+.icon_mac{
+    background-position:-92px 0;
+} 
+.icon_andr{
+    background-position:-190px 0;
+    width: 38px;
+} 
+.icon_iph{
+    background-position:-279px 0;
+    width: 34px;
+}
+.icon_k{
+    background-position:-370px 0;
+    width: 40px;
+}
+.icon_sp{
+    background-position:-463px 0;
+    width: 35px;
+}
+.icon_qPlay{
+    background-position:-561px 0;
+    width: 42px;
+}
+
+.icon_pc:hover{
+    background-position:-2px -49px;
+}
+.icon_mac:hover{
+    background-position:-92px -49px;
+}
+.icon_andr:hover{
+    background-position:-190px -49px;
+}
+.icon_iph:hover{
+    background-position:-279px -47px;
+}
+.icon_k:hover{
+    background-position:-370px -49px;
+}
+.icon_sp:hover{
+    background-position:-462px -47px;
+}
+.icon_qPlay:hover{
+    background-position:-561px -49px;
+}
